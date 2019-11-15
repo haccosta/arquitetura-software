@@ -1,0 +1,126 @@
+version: '2'
+
+services:
+
+   servicenginx:
+     image: nginx:1.15-alpine
+     container_name: dropshippingnginx
+     ports:
+       - "9090:9090"
+       - "443:443"
+     volumes:
+       - ./data/nginx:/etc/nginx/conf.d
+     networks:
+       - network-infra-dropshipping
+
+   servicepostgres:
+     image: postgres:9.6
+     container_name: dropshipping-postgres
+     environment:
+       POSTGRES_USER: "postgres"
+       POSTGRES_PASSWORD: "postgres"
+     ports:
+       - "15432:5432"
+     volumes:
+       - ./imagesDocker/postgres/:/docker-entrypoint-initdb.d/
+
+     networks:
+       - network-infra-dropshipping
+
+   servicerabbitmq:
+     image: rabbitmq:3-management
+     container_name: dropshipping-rabbitmq
+     hostname: rabbitmq
+     volumes:
+       - $PWD/storage/rabbitmq1:/var/lib/rabbitmq
+     environment:
+       - RABBITMQ_ERLANG_COOKIE=123466
+       - RABBITMQ_DEFAULT_USER=guest
+       - RABBITMQ_DEFAULT_PASS=guest
+       - CLUSTERED=true
+     ports:
+       - "15673:5672"
+     networks:
+       - network-infra-dropshipping   
+   
+   serviceredis:
+     image: redis
+     container_name: dropshipping-redis   
+     command: redis-server
+     networks:
+       - network-infra-dropshipping
+
+   servicemongodb:
+     image: mongo:latest
+     container_name: "mongodb"
+     environment:
+       - MONGO_DATA_DIR=/data/db
+       - MONGO_LOG_DIR=/dev/null
+     ports:
+       - 17017:27017
+     networks:
+       - network-infra-dropshipping
+
+   serviceeureka:
+     image: hacalves/dropshipping_eureka
+     container_name: dropshipping_eureka
+     ports:
+       - "15990:9090"
+     networks:
+       - network-infra-dropshipping
+
+   servicezuul:
+     image: hacalves/dropshipping_zuul
+     container_name: dropshipping_zuul
+     ports:
+       - "15991:9091"
+     depends_on:
+       - serviceeureka
+     networks:
+       - network-infra-dropshipping
+   serviceseguranca:
+     image: hacalves/dropshipping_seguranca
+     container_name: dropshipping_seguranca
+     ports:
+       - "15992:9092"
+     depends_on:
+       - serviceeureka
+       - servicezuul
+       - servicepostgres
+     networks:
+       - network-infra-dropshipping
+
+   servicelojavirtual:
+     image: hacalves/dropshipping_lojavirtual
+     container_name: dropshipping_lojavirtual
+     ports:
+       - "15994:9094"
+
+     depends_on:
+       - serviceeureka
+       - servicezuul
+       - servicepostgres
+       - servicemongodb
+       - servicerabbitmq
+       - serviceredis
+    
+     networks:
+       - network-infra-dropshipping
+
+   serviceintegracao:
+     image: hacalves/dropshipping_integracao
+     container_name: dropshipping_integracao
+     ports:
+       - "15993:9093"
+     depends_on:
+       - serviceeureka
+       - servicezuul
+       - servicemongodb
+       - servicerabbitmq
+
+     networks:
+       - network-infra-dropshipping
+ 
+networks: 
+   network-infra-dropshipping:
+     driver: bridge

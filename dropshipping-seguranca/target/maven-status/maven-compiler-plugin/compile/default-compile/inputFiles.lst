@@ -1,0 +1,15 @@
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/config/SwaggerConfig.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/config/WebSecurityConfig.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/model/JwtResponse.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/domain/Usuario.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/security/JwtAuthenticationEntryPoint.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/security/JwtRequestFilter.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/model/JwtRequest.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/config/SwaggerUIConfig.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/service/DetailsUserService.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/service/JwtUserDetailsService.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/DropshippingSegurancaApplication.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/util/JwtTokenUtil.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/service/AuthProviderService.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/controller/JwtAuthenticationController.java
+/home/handerson/repositorioHanderson/dropshipping/dropshipping-seguranca/src/main/java/com/pucminas/dropshipping/seguranca/repository/UsuarioRepository.java

@@ -1,0 +1,21 @@
+package com.pucminas.dropshipping.integracao;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.context.annotation.ComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@ComponentScan(basePackages = "com.pucminas.dropshipping.integracao")
+@EnableDiscoveryClient
+@SpringBootApplication
+@EnableAutoConfiguration
+@EnableSwagger2
+public class DropshippingIntegracaoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DropshippingIntegracaoApplication.class, args);
+	}
+
+}

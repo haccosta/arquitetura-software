@@ -1,0 +1,2 @@
+insert into usuario(id,email,senha,user_name) values (1,'hac.handerson@gmail.com','123456','handerson');
+insert into usuario(id,email,senha,user_name) values (2,'fornecedor@teste.com.br','1234567','fornecedor');

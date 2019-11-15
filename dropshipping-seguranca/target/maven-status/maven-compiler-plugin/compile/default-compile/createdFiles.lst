@@ -1,0 +1,15 @@
+com/pucminas/dropshipping/seguranca/security/JwtAuthenticationEntryPoint.class
+com/pucminas/dropshipping/seguranca/service/DetailsUserService.class
+com/pucminas/dropshipping/seguranca/DropshippingSegurancaApplication.class
+com/pucminas/dropshipping/seguranca/service/JwtUserDetailsService.class
+com/handersoncosta/SwaggerUIConfig.class
+com/pucminas/dropshipping/seguranca/model/JwtResponse.class
+com/handersoncosta/SwaggerConfig.class
+com/pucminas/dropshipping/seguranca/config/WebSecurityConfig.class
+com/pucminas/dropshipping/seguranca/service/AuthProviderService.class
+com/pucminas/dropshipping/seguranca/domain/Usuario.class
+com/pucminas/dropshipping/seguranca/controller/JwtAuthenticationController.class
+com/pucminas/dropshipping/seguranca/model/JwtRequest.class
+com/pucminas/dropshipping/seguranca/repository/UsuarioRepository.class
+com/pucminas/dropshipping/seguranca/util/JwtTokenUtil.class
+com/pucminas/dropshipping/seguranca/security/JwtRequestFilter.class

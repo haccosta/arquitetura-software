@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="34248deb-ca02-451f-b36c-68e775d626a2" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="34248deb-ca02-451f-b36c-68e775d626a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/DropshippingSegurancaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/controller/JwtAuthenticationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/domain/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/model/JwtRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/model/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/repository/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/service/AuthProviderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/service/DetailsUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pucminas/dropshipping/seguranca/service/JwtUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dropshipping-vendas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/DropshippingVendasApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/config/SenderAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/controller/RegistrarVendaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/domain/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/domain/ItemVenda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/domain/Venda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/dto/ClienteDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/dto/ItemVendaDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/dto/VendaDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/repository/VendaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/security/JWTAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/security/TokenAuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/service/VendaConsumerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/service/VendaProcessamentoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dropshipping-vendas/target/classes/com/pucminas/dropshipping/vendas/service/VendaQueueSenderService.class" beforeDir="false" />
+    </list>
+>>>>>>> 1dfd68b93ac1276c5de6d49d9c9e8826eb6fd1de
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="940">
+              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+=======
+            <state relative-caret-position="698">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
+>>>>>>> 1dfd68b93ac1276c5de6d49d9c9e8826eb6fd1de
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/DropshippingSegurancaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/config/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/model/JwtRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/model/JwtResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/config/JwtAuthenticationEntryPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/model/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/UsuarioRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/config/WebSecurityConfig/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/service/AuthProviderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/config/JwtTokenUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/controller/JwtAuthenticationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/config/JwtRequestFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/repository/UsuarioRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/domain/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/service/JwtUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/service/DetailsUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/domain/Produto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/security/JwtRequestFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/DropshippingSegurancaApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dropshipping-seguranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropshipping-seguranca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropshipping-seguranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropshipping-seguranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropshipping-seguranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropshipping-seguranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropshipping-seguranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropshipping-seguranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropshipping-seguranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropshipping-seguranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seguranca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropshipping-seguranca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropshipping-seguranca" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seguranca" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566493384690" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dropshipping.eureka" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DropshippingSegurancaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pucminas.dropshipping.seguranca.DropshippingSegurancaApplication" />
+      <module name="dropshipping-seguranca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pucminas.dropshipping.seguranca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DropshippingSegurancaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34248deb-ca02-451f-b36c-68e775d626a2" name="Default Changelist" comment="" />
+      <created>1565961006433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565961006433</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32277122" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5040128" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39791667" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32916668" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.328125" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/service/AuthProviderService.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/controller/JwtAuthenticationController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/model/JwtResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/model/JwtRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsChecker.class" />
+    <entry file="jar:///opt/Packages/jdk1.8.0_181/src.zip!/java/util/Collection.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/core/userdetails/User.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar!/io/jsonwebtoken/SignatureAlgorithm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/repository/UsuarioRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/domain/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/service/AuthProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/domain/Venda.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/domain/Fornecedor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/domain/Cliente.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/domain/ItemVenda.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/domain/Produto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/service/DetailsUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/security/JwtRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/security/JwtAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/service/JwtUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/util/JwtTokenUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/controller/JwtAuthenticationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pucminas/dropshipping/seguranca/DropshippingSegurancaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="940">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+=======
+        <state relative-caret-position="357">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+>>>>>>> 1dfd68b93ac1276c5de6d49d9c9e8826eb6fd1de
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

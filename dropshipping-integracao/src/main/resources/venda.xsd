@@ -1,0 +1,79 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://spring.io/guides/gs-producing-web-service"
+           xmlns:s="http://www.w3.org/1999/XSL/Transform"
+           targetNamespace="http://spring.io/guides/gs-producing-web-service" elementFormDefault="qualified">
+
+    <xs:element name="getVendaFornecedorRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="idFornecedor" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+    <xs:element name="getVendaFornecedorResponseDetails">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Venda" type="tns:Venda" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="atualizarVendaAbertaFornecedorRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vendaFornecedor" type="tns:VendaFornecedorAtualizar"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="atualizarVendaAbertaFornecedorResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="serviceStatus" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="Venda">
+        <xs:sequence>
+            <xs:element name="id" type="xs:int"/>
+            <xs:element name="cliente" type="tns:Cliente"/>
+            <xs:element name="dataVenda" type="xs:string"/>
+            <xs:element name="situacaoVenda" type="xs:integer"/>
+            <xs:element name="itensVenda" minOccurs="1" maxOccurs="unbounded"  type="tns:ItemVenda"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="VendaFornecedorAtualizar">
+        <xs:sequence>
+            <xs:element name="id" type="xs:int"/>
+            <xs:element name="idFornecedor" type="xs:int"/>
+            <xs:element name="codigoProdutoLiberado" minOccurs="1" maxOccurs="unbounded"  type="tns:ItemVendaAbertaFornecedor"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ItemVenda">
+        <xs:sequence>
+            <xs:element name="idVenda" type="xs:int" />
+            <xs:element name="idFornecedor" type="xs:int" />
+            <xs:element name="idProduto" type="xs:int" />
+            <xs:element name="valorUnitario" type="xs:double" />
+            <xs:element name="quantidadeSolicitada" type="xs:int" />
+            <xs:element name="situacaoAtendimento" type="xs:int" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ItemVendaAbertaFornecedor">
+        <xs:sequence>
+            <xs:element name="id" type="xs:int" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Cliente">
+        <xs:sequence>
+            <xs:element name="nome" type="xs:string"/>
+            <xs:element name="email" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
